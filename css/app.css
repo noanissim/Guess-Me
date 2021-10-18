@@ -1,0 +1,122 @@
+body {
+  display: flex;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+}
+
+.jumbotron {
+  background-color: #73aedb;
+  text-align: center;
+  color: #fcf064;
+  /* font-size: 3em; */
+  /* height: 400px; */
+}
+
+footer {
+  background-color: rgb(99, 96, 96);
+  text-align: center;
+  color: #73aedb;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+h2{
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.ending-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ending-form input {
+  margin: 15px;
+  font-size: 1.2em;
+  height: 50px;
+  width: 300px;
+}
+
+.ending-form label{
+  font-weight: bold;
+  font-size: 1.2em;
+  margin: 5px;
+
+}
+
+
+.btn {
+  width: 100px;
+  height: 40px;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-size: 1.2em;
+  padding: 1px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+
+/* .btn-start {
+  background-color: #fcf064;
+}
+
+
+.btn-yes {
+  background-color: #28a745;
+}
+
+
+.btn-no {
+  background-color: #ff0018;
+}
+
+.btn-add-guess {
+  background-color: #fcf064;
+  width: 250px;
+  color: black;
+} */
+
+.quest img{
+  display: none;
+  margin: auto;
+  width: 250px;
+  height: 250px;
+}
+
+.img-logo{
+  animation-name: example;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+
+@keyframes example{
+  25% {
+    transform: rotate(90deg);
+  }
+  50%{
+    transform: rotate(180deg);
+  }
+  75%{
+    transform: rotate(270deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
