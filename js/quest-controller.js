@@ -45,7 +45,8 @@ function onUserResponse(ev) {
     if (res === 'yes') {
       var $img = $('.quest img')
       $img.attr("src", `img/people/${getCurrQuest().txt}.jpg`)
-      console.log();
+      console.log(getCurrQuest().txt);
+      console.log($img);
       $img.show()
       $('.btn-restart').click()
       $('.btn-close-modal').click(function () {
